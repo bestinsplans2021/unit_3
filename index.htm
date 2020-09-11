@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Get Your Quote Now!</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+  <title>Get Your Quote Now!</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-  	h1,h4{
-  		font-family: "Helvetica";
-  		color: rgb(16, 82, 250);
-  	}
-  	div{
-  		display: block;
-  		text-align: center;
-  	}
-  	@media (max-width: 400px) {
-  	iframe {
+    h1,h4{
+      font-family: Arial  ;
+      color: rgb(16, 82, 250);
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    a:hover{
+      color: white;
+      text-decoration: none;
+    }
+    div{
+      display: block;
+      text-align: center;
+    }
+    #submit{
+      margin-top: 13px;
+      background-color: rgb(16, 82, 250);
+
+    }
+    #new{
+      margin-top: 3px;
+      background-color: rgb(15, 200, 48);
+      color: rgb(16, 82, 250);
+    }
+    @media (max-width: 400px) {
+    iframe {
     width: 100%;
-  	}
-	}
+    }
+  }
   </style>
 </head>
 <body>
 <div>
 <h1><strong>Pocket Quote</strong></h1>
 <iframe src="Sample.html" width="30%" height="300" style="border:1px solid black; margin-top: 1px;"></iframe>
-<h4><strong>Individual Quote</strong></h4>
+<br>
+<h4><strong>"Individual Quote Only"</strong></h4>
+<button type="button" id="submit" class="btn btn-inverse btn-primary"><strong><a href="https://insurance4dallas.com/redirect-page-100/">Provider Search</a></strong></button>
+<br>
+<iframe width="25%" height="1px">
+<hr>
+</iframe>
+<br>
+<button type="button" id = "new" class="btn btn-outline-primary"><strong><a href=" https://insurance4dallas.com/redirect-page-5/">Continue >>></a></strong></button>
 </div>
 </body>
 </html>
